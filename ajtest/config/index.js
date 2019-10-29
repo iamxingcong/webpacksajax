@@ -13,12 +13,12 @@ module.exports = {
     proxyTable: {
 
         '/ops': {
-        target: 'http://dspeaklow.wangge0101.cn',
-        changeOrigin: true,
-        pathRewrite: {
-          '^/': '/'
+            target: 'http://dspeaklow.wangge0101.cn',
+            changeOrigin: true,
+            pathRewrite: {
+              '^/': '/'
+            }
         }
-      }
 
     },
 
